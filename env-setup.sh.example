@@ -1,0 +1,17 @@
+#!/bin/bash
+export AIRFLOW_HOME=$(pwd)/airflow
+source venv/bin/activate
+
+# Kaggle credentials path
+export KAGGLE_CONFIG_DIR=$HOME/.kaggle
+
+# Additional environment variables as needed
+export SNOWFLAKE_USER="your username"
+export SNOWFLAKE_PASSWORD="your password"
+export SNOWFLAKE_ACCOUNT="your account"
+export SNOWFLAKE_WAREHOUSE="your warehouse"
+export SNOWFLAKE_DATABASE_STAGING="your staging database"
+export SNOWFLAKE_DATABASE_MART="your mart database"
+export SNOWFLAKE_SCHEMA="your schema"
+export SNOWFLAKE_ROLE="your role"
+

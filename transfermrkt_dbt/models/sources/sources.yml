@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: football_data
+    database: TRANSFERMRKT_STAGING
+    schema: TRANSFERMRKT_SCHEMA
+    tables:
+      - name: appearances
+      - name: club_games
+      - name: clubs
+      - name: competitions
+      - name: games
+      - name: player_valuations
+      - name: players
+      - name: transfers

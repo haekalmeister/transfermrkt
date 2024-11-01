@@ -1,0 +1,27 @@
+# Environment and secrets
+env-setup.sh
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+logs/
+airflow/logs/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# IDE
+.vscode/
+.idea/

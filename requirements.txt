@@ -1,0 +1,6 @@
+apache-airflow-providers-snowflake==5.7.1
+dbt-core==1.8.8
+dbt-snowflake==1.8.4
+kaggle==1.6.17
+pandas==2.1.4
+snowflake-connector-python==3.12.3

@@ -49,5 +49,5 @@ I built a data pipeline that:
 ## What's Next
 Things I want to add:
 - Different staging source
-- Data Visualization
+- Data visualization
 - Containerization
